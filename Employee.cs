@@ -1,5 +1,5 @@
 using System;
-namespace WebApiProject
+namespace WebApi
 {
     public class Employee
     {

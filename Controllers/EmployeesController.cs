@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc; // this give use WEBAPI features // MVC = is a tool for creating API controller
 using Microsoft.EntityFrameworkCore; // talking to the database
 
-namespace WebApiProject.Controllers
+namespace WebApi.Controllers
 {
     [ApiController] // it say's this class is an API controller
     [Route("api/[controller]")] // Controller will receive the request and decides what to do // our class name is "EmployeeController" so "controller" become "Employee", so the address is "api/Employee"
